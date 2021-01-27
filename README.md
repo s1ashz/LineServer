@@ -34,11 +34,6 @@ A-.Read File.-D;
 A--add to cache-->E
 ```
 
-graph TD
-A[Hard] -->|Text| B(Round)
-B --> C{Decision}
-C -->|One| D[Result 1]
-C -->|Two| E[Result 2]
 
 The class **ApplicationInitializer.java** has **`@EventListener(ApplicationReadyEvent.class)`** that is triggered after spring finished boot up.
 Then this class initiates every vital part of the app:
